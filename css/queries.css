@@ -1,0 +1,49 @@
+/*******************************/
+/* <= 912px */
+/*******************************/
+@media (max-width: 57em) {
+  .html {
+    font-size: 50%;
+  }
+
+  .header-inner {
+    padding: 1rem 0;
+    gap: 1.2rem;
+  }
+
+  .menu-link {
+    display: inline-block;
+  }
+
+  .menu-icon {
+    color: var(--color-t-secondary);
+    height: 2.2rem;
+  }
+
+  .logo {
+    height: 2.4rem;
+  }
+
+  .main-nav-list {
+    gap: 1.2rem;
+  }
+
+  .hidden-sm {
+    display: none;
+  }
+
+  .main-nav-search {
+    border-bottom: none;
+  }
+
+  .search-icon {
+    width: 2.2rem;
+    height: 2.2rem;
+  }
+
+  .nav-cta:link,
+  .nav-cta:visited {
+    border-radius: 6px;
+    padding: 0.8rem 2.2rem;
+  }
+}
