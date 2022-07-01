@@ -61,6 +61,10 @@ body {
 /*******************************/
 /* Head */
 /*******************************/
+.menu-link {
+  display: none;
+}
+
 .logo {
   height: 3.4rem;
 }
@@ -70,6 +74,7 @@ body {
 }
 
 .header {
+  padding: 0 1.2rem 0;
   border-bottom: 1px solid rgba(33, 123, 244, 0.1);
 }
 
