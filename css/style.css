@@ -5,7 +5,8 @@
   /* Blue */
   --blue-50: #e7f1fd;
   --blue-100: #e6f0f1;
-  --blue-500: #217bf4;
+  --blue-200: #d4e7fe;
+  --blue-500: #0853b4;
   --blue-600: #1c6eda;
   /* Grey */
   --grey-50: #e5e5e5;
@@ -27,6 +28,7 @@
 
   --color-bg1: var(--blue-50);
   --color-bg2: var(--blue-100);
+  --color-bg3: var(--blue-200);
 }
 
 /*******************************/
@@ -43,7 +45,7 @@ html {
 }
 
 body {
-  color: var(--c);
+  color: var(--color-t-primary);
   font-family: 'Inter', sans-serif;
   font-weight: 400;
 }
@@ -51,6 +53,47 @@ body {
 .container {
   max-width: 114rem;
   margin: 0 auto;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  background-color: var(--color-primary);
+  border: 1px solid transparent;
+  border-radius: 14px;
+  color: #fff;
+  font-size: 1.4rem;
+  padding: 1.8rem 4.2rem;
+  text-decoration: none;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: var(--color-shade);
+}
+
+.btn--primary:link,
+.btn--primary:visited {
+  box-shadow: 0px 7px 22px -6px rgba(33, 123, 244, 0.34);
+  margin-right: 1.8rem;
+}
+
+.btn--secondary:link,
+.btn--secondary:visited {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 1px solid var(--color-primary);
+}
+
+.btn--secondary:hover,
+.btn--secondary:active {
+  background-color: var(--color-bg1);
+}
+
+.btn--sm:link,
+.btn--sm:visited {
+  padding: 1.4rem 4.4rem;
 }
 
 *:focus {
@@ -71,10 +114,11 @@ body {
 
 .logo-img {
   height: 100%;
+  width: auto;
 }
 
 .header {
-  padding: 0 1.2rem 0;
+  padding: 0 2.4rem 0;
   border-bottom: 1px solid rgba(33, 123, 244, 0.1);
 }
 
@@ -144,16 +188,50 @@ body {
   color: var(--color-t-light);
 }
 
-.nav-cta:link,
-.nav-cta:visited {
-  display: inline-block;
-  color: #fff;
-  background-color: var(--color-primary);
-  border-radius: 9px;
-  padding: 1.4rem 4.4rem;
+/*******************************/
+/* Hero */
+/*******************************/
+.hero {
+  background-image: linear-gradient(
+    311.76deg,
+    var(--color-bg3) -15.24%,
+    #ffffff 78.85%
+  );
+  padding: 5.8rem 2.4rem 8.2rem;
 }
 
-.nav-cta:hover,
-.nav-cta:active {
-  background-color: var(--color-shade);
+.hero-flex {
+  display: flex;
+  gap: 7rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero-tag {
+  background-color: var(--color-bg1);
+  border-radius: 8px;
+  color: var(--color-primary);
+  display: inline-block;
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  padding: 1.2rem 3rem;
+}
+
+.hero-heading {
+  font-size: 5.6rem;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+}
+
+.hero-text {
+  color: var(--color-t-third);
+  font-size: 1.8rem;
+  line-height: 2.8rem;
+  margin-bottom: 4.2rem;
+}
+
+.hero-img {
+  width: 100%;
+  height: auto;
 }
