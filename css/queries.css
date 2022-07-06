@@ -2,11 +2,12 @@
 /* <= 912px */
 /*******************************/
 @media (max-width: 57em) {
-  /* Header */
+  /* General */
   html {
     font-size: 50%;
   }
 
+  /* Header */
   .header-inner {
     padding: 1rem 0;
     gap: 1.2rem;
@@ -62,5 +63,16 @@
   .btn:visited {
     border-radius: 6px;
     padding: 1.2rem 2.8rem;
+  }
+
+  /* About us */
+  .about-us-flex {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4.2rem;
+  }
+
+  .about-us-heading {
+    font-size: 3.6rem;
   }
 }
