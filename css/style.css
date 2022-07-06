@@ -237,7 +237,7 @@ body {
 .hero-text {
   color: var(--color-t-third);
   font-size: 1.8rem;
-  line-height: 2.8rem;
+  line-height: 1.8;
   margin-bottom: 4.2rem;
 }
 
@@ -274,7 +274,7 @@ body {
 .about-us-text {
   color: var(--color-t-third);
   font-size: 1.6rem;
-  line-height: 2.8rem;
+  line-height: 1.8;
   margin-bottom: 3.6rem;
 }
 
@@ -282,7 +282,7 @@ body {
   list-style: none;
   font-size: 1.8rem;
   font-weight: 500;
-  line-height: 3.8rem;
+  line-height: 2.4;
 }
 
 .about-us-list li {
