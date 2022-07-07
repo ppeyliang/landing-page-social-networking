@@ -55,6 +55,20 @@ body {
   margin: 0 auto;
 }
 
+.section {
+  padding: 9.6rem 2.4rem;
+}
+
+.grid {
+  display: grid;
+  column-gap: 2.4rem;
+  row-gap: 2.4rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -227,11 +241,67 @@ body {
 .hero-text {
   color: var(--color-t-third);
   font-size: 1.8rem;
-  line-height: 2.8rem;
+  line-height: 1.8;
   margin-bottom: 4.2rem;
 }
 
 .hero-img {
   width: 100%;
   height: auto;
+}
+
+/*******************************/
+/* About us */
+/*******************************/
+.about-us-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 9.6rem;
+}
+
+.about-us-tag {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+
+.about-us-heading {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.about-us-text {
+  color: var(--color-t-third);
+  font-size: 1.6rem;
+  line-height: 1.8;
+  margin-bottom: 3.6rem;
+}
+
+.about-us-list {
+  list-style: none;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.4;
+}
+
+.about-us-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.about-us-img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+}
+
+.about-us-img--long {
+  grid-row: 1 / span 2;
+  align-self: center;
+  justify-self: end;
 }
