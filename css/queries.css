@@ -75,4 +75,15 @@
   .about-us-heading {
     font-size: 3.6rem;
   }
+
+  /* Our achievement */
+  .achieve-flex {
+    flex-wrap: wrap-reverse;
+    justify-content: center;
+    gap: 4.2rem;
+  }
+
+  .achieve-text-box {
+    margin-left: 0;
+  }
 }

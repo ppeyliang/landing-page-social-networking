@@ -56,7 +56,7 @@ body {
 }
 
 .section {
-  padding: 9.6rem 2.4rem;
+  padding: 7.5rem 2.4rem;
 }
 
 .grid {
@@ -67,6 +67,20 @@ body {
 
 .grid--2-cols {
   grid-template-columns: repeat(2, 1fr);
+}
+
+.heading--secondary {
+  font-size: 3.6rem;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.subtitle {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
 }
 
 .btn:link,
@@ -108,6 +122,37 @@ body {
 .btn--sm:link,
 .btn--sm:visited {
   padding: 1.4rem 4.4rem;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  padding: 0.8rem 0;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  border-bottom: 1px solid currentColor;
+}
+
+.link--primary:link,
+.link--primary:visited {
+  color: var(--color-primary);
+}
+
+.link--primary:hover,
+.link--primary:active {
+  border-bottom: 1px solid currentColor;
+}
+
+.link--secondary:link,
+.link--secondary:visited {
+  color: var(--color-t-secondary);
 }
 
 *:focus {
@@ -260,20 +305,6 @@ body {
   gap: 9.6rem;
 }
 
-.about-us-tag {
-  display: inline-block;
-  font-size: 1.8rem;
-  font-weight: 500;
-  color: var(--color-primary);
-  margin-bottom: 1rem;
-}
-
-.about-us-heading {
-  font-size: 3.6rem;
-  font-weight: 700;
-  margin-bottom: 1.6rem;
-}
-
 .about-us-text {
   color: var(--color-t-third);
   font-size: 1.6rem;
@@ -304,4 +335,55 @@ body {
   grid-row: 1 / span 2;
   align-self: center;
   justify-self: end;
+}
+
+/*******************************/
+/* Our achievement */
+/*******************************/
+.achieve-flex {
+  display: flex;
+  gap: 2.4rem;
+  align-items: center;
+}
+
+.achieve-card {
+  padding: 4.4rem;
+  border-radius: 8px;
+  box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+  border-radius: 14px;
+}
+
+.achieve-card-heading {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 2rem;
+  margin-bottom: 2.4rem;
+}
+
+.achieve-card-subheading {
+  color: var(--color-t-third);
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+}
+
+.achieve-card-subheading-img {
+  width: 6rem;
+  height: auto;
+}
+
+.achieve-card-subheading-data {
+  color: var(--color-primary);
+  font-weight: 500;
+}
+
+.achieve-text {
+  color: var(--color-t-third);
+  font-size: 1.6rem;
+  margin-bottom: 4rem;
+  line-height: 2.4;
+}
+
+.achieve-text-box {
+  margin-left: 9.2rem;
 }
