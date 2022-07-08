@@ -85,7 +85,10 @@ body {
 
 .btn:link,
 .btn:visited {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
   background-color: var(--color-primary);
   border: 1px solid transparent;
   border-radius: 14px;
@@ -126,7 +129,10 @@ body {
 
 .link:link,
 .link:visited {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.8rem;
   font-size: 1.6rem;
   font-weight: 500;
   text-decoration: none;
@@ -348,9 +354,15 @@ body {
 
 .achieve-card {
   padding: 4.4rem;
-  border-radius: 8px;
-  box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
   border-radius: 14px;
+}
+
+.achieve-card--primary {
+  box-shadow: 0px 26px 49px rgba(146, 165, 184, 0.14);
+}
+
+.achieve-card--secondary {
+  border: 1px solid var(--color-t-line);
 }
 
 .achieve-card-heading {
