@@ -425,7 +425,7 @@ body {
   color: var(--color-t-third);
   font-size: 1.6rem;
   line-height: 2.4;
-  width: 40%;
+  max-width: 40rem;
   margin: 0 auto;
 }
 
