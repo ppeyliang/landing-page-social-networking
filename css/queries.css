@@ -86,4 +86,23 @@
   .achieve-text-box {
     margin-left: 0;
   }
+
+  /* Features */
+  .features-top {
+    width: 90%;
+    margin-bottom: 2.8rem;
+  }
+
+  .features-text {
+    width: 80%;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
+  }
+
+  .features-card-flex {
+    padding: 1rem 2rem;
+  }
 }
