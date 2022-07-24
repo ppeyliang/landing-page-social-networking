@@ -399,3 +399,72 @@ body {
 .achieve-text-box {
   margin-left: 9.2rem;
 }
+
+/*******************************/
+/* Our achievement */
+/*******************************/
+.features {
+  background: linear-gradient(
+    0deg,
+    rgba(241, 246, 253, 0) 1.63%,
+    #f1f6fd 20.5%,
+    #f1f6fd 58.57%,
+    #ffffff 100%
+  );
+}
+
+.features-top {
+  text-align: center;
+  width: 50%;
+  margin-bottom: 6.6rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-text {
+  color: var(--color-t-third);
+  font-size: 1.6rem;
+  line-height: 2.4;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.features-grid {
+  max-width: 100rem;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 0 auto;
+}
+
+.features-card-flex {
+  min-height: 20rem;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem 3rem;
+  background-color: #fff;
+  box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
+  border-radius: 14px;
+}
+
+.features-icon {
+  width: 40%;
+  height: auto;
+}
+
+.features-card-text-box {
+  flex-basis: 100%;
+}
+
+.features-card-heading {
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+}
+
+.features-card-text {
+  color: var(--color-t-third);
+  font-size: 1.6rem;
+  line-height: 2;
+}
