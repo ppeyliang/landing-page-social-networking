@@ -45,9 +45,10 @@ html {
 }
 
 body {
-  color: var(--color-t-primary);
+  color: var(--color-t-third);
   font-family: 'Inter', sans-serif;
   font-weight: 400;
+  font-size: 1.6rem;
 }
 
 .container {
@@ -70,6 +71,7 @@ body {
 }
 
 .heading--secondary {
+  color: var(--color-t-primary);
   font-size: 3.6rem;
   font-weight: 700;
   margin-bottom: 1.6rem;
@@ -133,7 +135,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 0.8rem;
-  font-size: 1.6rem;
   font-weight: 500;
   text-decoration: none;
   border-bottom: 1px solid transparent;
@@ -213,7 +214,6 @@ body {
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
-  color: var(--color-t-third);
   font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 0.01rem;
@@ -284,13 +284,13 @@ body {
 }
 
 .hero-heading {
+  color: var(--color-t-primary);
   font-size: 5.6rem;
   font-weight: 700;
   margin-bottom: 1.8rem;
 }
 
 .hero-text {
-  color: var(--color-t-third);
   font-size: 1.8rem;
   line-height: 1.8;
   margin-bottom: 4.2rem;
@@ -312,8 +312,6 @@ body {
 }
 
 .about-us-text {
-  color: var(--color-t-third);
-  font-size: 1.6rem;
   line-height: 1.8;
   margin-bottom: 3.6rem;
 }
@@ -366,6 +364,7 @@ body {
 }
 
 .achieve-card-heading {
+  color: var(--color-t-primary);
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -374,8 +373,6 @@ body {
 }
 
 .achieve-card-subheading {
-  color: var(--color-t-third);
-  font-size: 1.6rem;
   margin-bottom: 4rem;
 }
 
@@ -390,8 +387,6 @@ body {
 }
 
 .achieve-text {
-  color: var(--color-t-third);
-  font-size: 1.6rem;
   margin-bottom: 4rem;
   line-height: 2.4;
 }
@@ -401,7 +396,7 @@ body {
 }
 
 /*******************************/
-/* Our achievement */
+/* Features */
 /*******************************/
 .features {
   background: linear-gradient(
@@ -415,15 +410,11 @@ body {
 
 .features-top {
   text-align: center;
-  width: 50%;
-  margin-bottom: 6.6rem;
-  margin-left: auto;
-  margin-right: auto;
+  max-width: 68rem;
+  margin: 0 auto 6.6rem;
 }
 
 .features-text {
-  color: var(--color-t-third);
-  font-size: 1.6rem;
   line-height: 2.4;
   max-width: 40rem;
   margin: 0 auto;
@@ -437,20 +428,21 @@ body {
   margin: 0 auto;
 }
 
-.features-card-flex {
-  min-height: 20rem;
-  display: flex;
-  align-items: center;
-  gap: 2rem;
-  padding: 3rem 3rem;
+.features-card {
   background-color: #fff;
   box-shadow: 14px 22px 52px -12px rgba(127, 127, 127, 0.13);
   border-radius: 14px;
+  padding: 3rem 3rem;
+}
+
+.features-card-flex {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
 }
 
 .features-icon {
   width: 40%;
-  height: auto;
 }
 
 .features-card-text-box {
@@ -458,13 +450,12 @@ body {
 }
 
 .features-card-heading {
+  color: var(--color-t-primary);
   font-size: 2.4rem;
   font-weight: 600;
   margin-bottom: 1.4rem;
 }
 
 .features-card-text {
-  color: var(--color-t-third);
-  font-size: 1.6rem;
   line-height: 2;
 }
