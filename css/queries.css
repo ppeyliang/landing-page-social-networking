@@ -101,4 +101,9 @@
   .features-card {
     padding: 2rem;
   }
+
+  /* Our team */
+  .team-members {
+    flex-wrap: wrap;
+  }
 }

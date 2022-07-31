@@ -35,13 +35,14 @@
 /* Reusable Style */
 /*******************************/
 * {
-  box-sizing: border-box;
   padding: 0;
   margin: 0;
+  box-sizing: inherit;
 }
 
 html {
   font-size: 62.5%;
+  box-sizing: border-box;
 }
 
 body {
@@ -58,6 +59,18 @@ body {
 
 .section {
   padding: 7.5rem 2.4rem;
+}
+
+.section-top {
+  text-align: center;
+  max-width: 68rem;
+  margin: 0 auto 6.6rem;
+}
+
+.section-text {
+  line-height: 2.4;
+  max-width: 40rem;
+  margin: 0 auto;
 }
 
 .grid {
@@ -408,18 +421,6 @@ body {
   );
 }
 
-.features-top {
-  text-align: center;
-  max-width: 68rem;
-  margin: 0 auto 6.6rem;
-}
-
-.features-text {
-  line-height: 2.4;
-  max-width: 40rem;
-  margin: 0 auto;
-}
-
 .features-grid {
   max-width: 100rem;
   align-items: center;
@@ -458,4 +459,65 @@ body {
 
 .features-card-text {
   line-height: 2;
+}
+
+/*******************************/
+/* Our team */
+/*******************************/
+.team-list {
+  background-color: var(--color-bg1);
+  list-style: none;
+  width: 40rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  padding: 1rem;
+  margin: -3rem auto 0 auto;
+  border-radius: 14px;
+}
+
+.team-list li {
+  padding: 1.5rem;
+}
+
+.team-list .team-list-active {
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 14px;
+  text-align: center;
+  padding: 1.5rem 3rem;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  margin-top: 6rem;
+  gap: 3rem;
+}
+
+.team-card {
+  border: 2px solid rgba(243, 243, 243, 0.5);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.team-card-img {
+  width: 50%;
+}
+
+.team-card-name {
+  font-size: 2.4rem;
+  font-weight: 600;
+  color: var(--color-t-primary);
+  text-align: center;
+  line-height: 2;
+}
+
+.team-card-link {
+  text-align: center;
 }
