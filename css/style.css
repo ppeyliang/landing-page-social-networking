@@ -521,3 +521,23 @@ body {
 .team-card-link {
   text-align: center;
 }
+
+/*******************************/
+/* CTA */
+/*******************************/
+.cta-section {
+  background-color: var(--color-bg1);
+  background-image: url('../img/mobile-muckup.png');
+  background-position: right;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.cta-text-box {
+  max-width: 40rem;
+}
+
+.cta-img-box {
+  display: flex;
+  align-items: center;
+}
