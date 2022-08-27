@@ -116,4 +116,17 @@
     margin: 0 auto;
     text-align: center;
   }
+
+  /* Blog */
+  .news {
+    flex-wrap: wrap;
+  }
+
+  .news-card {
+    align-items: center;
+  }
+
+  .news-img-box {
+    width: 80%;
+  }
 }

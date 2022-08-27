@@ -541,3 +541,48 @@ body {
   display: flex;
   align-items: center;
 }
+
+/*******************************/
+/* Blog */
+/*******************************/
+.news {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 7.5rem;
+}
+
+.news-card {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.news-img-box {
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.news-img {
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.news-img:hover {
+  transform: scale(1.2);
+}
+
+.news-text {
+  padding: 0 2.5rem;
+  line-height: 1.6;
+}
+
+.news-text::first-letter {
+  font-weight: 600;
+  color: #ffaf2e;
+}
+
+.news-link {
+  align-self: center;
+}
