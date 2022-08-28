@@ -605,12 +605,18 @@ body {
 }
 
 .footer-list li {
-  font-weight: 300;
   margin-bottom: 1.4rem;
 }
 
 .footer-list li:first-child {
   font-weight: 600;
+}
+
+.footer-list-link {
+  display: block;
+  font-weight: 300;
+  text-decoration: none;
+  color: inherit;
 }
 
 .footer-cta {
@@ -636,6 +642,7 @@ body {
   border-radius: 0.8rem;
   background-color: #fff;
   color: #2b2b39;
+  font-weight: 600;
   text-decoration: none;
   padding: 1.4rem 2rem;
 }
