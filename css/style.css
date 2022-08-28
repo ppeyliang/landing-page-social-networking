@@ -614,7 +614,7 @@ body {
 }
 
 .footer-cta {
-  display: flex;
+  display: inline-flex;
   border: 1px solid rgba(255, 255, 255, 0.85);
   border-radius: 0.8rem;
   margin-top: 2rem;
@@ -638,25 +638,24 @@ body {
   color: #2b2b39;
   text-decoration: none;
   padding: 1.4rem 2rem;
-  /* margin-left: -10%; */
 }
 
-.footer-flex {
+.footer-logo {
   background-color: #20202d;
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   align-items: center;
-  justify-content: space-between;
   padding: 2rem 16.6rem;
 }
 
 .footer-logo-img {
-  width: 15%;
-  height: auto;
+  justify-self: center;
 }
 
 .footer-social-links {
   display: flex;
   gap: 1rem;
+  margin-left: auto;
 }
 
 .footer-social-link {
