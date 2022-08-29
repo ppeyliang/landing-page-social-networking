@@ -29,10 +29,10 @@
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li class="hidden-sm"><a href="#" class="main-nav-link">Home</a></li>
-          <li class="hidden-sm"><a href="#" class="main-nav-link">Community</a></li>
-          <li class="hidden-sm"><a href="#" class="main-nav-link">Blog</a></li>
-          <li class="hidden-sm"><a href="#" class="main-nav-link">Events</a></li>
+          <li class="hidden-sm"><a href="#hero" class="main-nav-link">Home</a></li>
+          <li class="hidden-sm"><a href="#community" class="main-nav-link">Community</a></li>
+          <li class="hidden-sm"><a href="#blog" class="main-nav-link">Blog</a></li>
+          <li class="hidden-sm"><a href="#blog" class="main-nav-link">Events</a></li>
           <li class="main-nav-search-list">
             <span class="main-nav-search">
               <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" fill="none" viewBox="0 0 24 24"
@@ -43,13 +43,14 @@
             </span>
           </li>
           <li><a href="#" class="btn btn--primary btn--sm">Log in</a></li>
+        </ul>
       </nav>
     </div>
   </header>
 
   <!-- Hero section -->
   <main>
-    <section class="hero">
+    <section class="hero" id="hero">
       <div class="hero-flex container">
         <div class="hero-text-box">
           <span class="hero-tag">Netbook community</span>
@@ -211,7 +212,7 @@
     </section>
 
     <!-- Features section -->
-    <section class="section features">
+    <section class="section features" id="community">
       <div class="section-top">
         <span class="subtitle">Our Community</span>
         <h2 class="heading--secondary">Community Main Feature</h2>
@@ -518,19 +519,19 @@
           <div class="heading--secondary">You Can Easily Find This App!</div>
           <div class="section-text">Download for free now and unlock the possibility.</div>
           <div class="cta-img-box">
-            <!-- <div> -->
-            <img class="cta-img" src="img/play-store.png" alt="Apple Store icon" width="140">
-            <!-- </div> -->
-            <!-- <div> -->
-            <img class="cta-img" src="img/apple-store.png" alt="Play Store icon" width="140">
-            <!-- </div> -->
+            <a href="#">
+              <img class="cta-img" src="img/play-store.png" alt="Apple Store icon" width="140">
+            </a>
+            <a href="#">
+              <img class="cta-img" src="img/apple-store.png" alt="Play Store icon" width="140">
+            </a>
           </div>
         </div>
       </div>
     </section>
 
     <!-- Blog section -->
-    <section class="section container">
+    <section class="section container" id="blog">
       <div class="section-top">
         <span class="subtitle">Follow Us</span>
         <h2 class="heading--secondary">Latest News</h2>

@@ -151,6 +151,7 @@ body {
   font-weight: 500;
   text-decoration: none;
   border-bottom: 1px solid transparent;
+  box-shadow: none;
   padding: 0.8rem 0;
   transition: all 0.3s;
 }
@@ -233,6 +234,8 @@ body {
 .main-nav-link:link,
 .main-nav-link:visited {
   display: inline-block;
+  box-shadow: none;
+  color: inherit;
   font-size: 1.4rem;
   font-weight: 500;
   letter-spacing: 0.01rem;
@@ -619,8 +622,10 @@ body {
   font-weight: 600;
 }
 
-.footer-list-link {
+.footer-list-link:link,
+.footer-list-link:visited {
   display: block;
+  box-shadow: none;
   font-weight: 300;
   text-decoration: none;
   color: inherit;
