@@ -3,6 +3,9 @@
 const headerEl = document.querySelector('.header');
 const navEl = document.querySelector('.main-nav');
 const heroEl = document.querySelector('.hero');
+const menuEl = document.querySelector('.menu-link');
+const mobileNavEl = document.querySelector('.main-nav-mobile');
+const mainEl = document.querySelector('main');
 
 // Implement sticky header
 const headerHeight = headerEl.getBoundingClientRect().height;
@@ -40,4 +43,20 @@ navEl.addEventListener('click', (e) => {
       behavior: 'smooth',
     });
   }
+});
+
+// Implement mobile navigation
+menuEl.addEventListener('click', (e) => {
+  e.preventDefault();
+  mobileNavEl.classList.toggle('main-nav-open');
+});
+
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') {
+    mobileNavEl.classList.remove('main-nav-open');
+  }
+});
+
+mainEl.addEventListener('click', () => {
+  mobileNavEl.classList.remove('main-nav-open');
 });

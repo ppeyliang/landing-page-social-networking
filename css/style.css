@@ -200,6 +200,7 @@ body {
 .header {
   padding: 0 2.4rem 0;
   border-bottom: 1px solid rgba(33, 123, 244, 0.1);
+  position: relative;
 }
 
 .header-sticky {
@@ -218,6 +219,10 @@ body {
 
 .main-nav {
   flex-grow: 1;
+}
+
+.main-nav-mobile {
+  display: none;
 }
 
 .main-nav-list {
