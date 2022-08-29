@@ -48,6 +48,7 @@ navEl.addEventListener('click', (e) => {
 // Implement mobile navigation
 menuEl.addEventListener('click', (e) => {
   e.preventDefault();
+  e.stopPropagation();
   mobileNavEl.classList.toggle('main-nav-open');
 });
 
@@ -57,6 +58,6 @@ document.addEventListener('keydown', (e) => {
   }
 });
 
-mainEl.addEventListener('click', () => {
+document.addEventListener('click', () => {
   mobileNavEl.classList.remove('main-nav-open');
 });

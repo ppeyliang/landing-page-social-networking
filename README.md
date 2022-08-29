@@ -25,6 +25,7 @@ This project is referencing a free social networking landing page designed in Fi
 - [x] Build Footer section
 - [x] Implement sticky header when the Hero section is out of view
 - [x] Implement smooth scrolling when clicking the main navigation
+- [x] Implement mobile navigation
 
 ## Acknowledgements
 
