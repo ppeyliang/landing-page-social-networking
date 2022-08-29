@@ -654,20 +654,18 @@ body {
 
 .footer-logo {
   background-color: #20202d;
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  align-items: center;
-  padding: 2rem 16.6rem;
 }
 
-.footer-logo-img {
-  justify-self: center;
+.footer-logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2.4rem;
 }
 
 .footer-social-links {
   display: flex;
   gap: 1rem;
-  margin-left: auto;
 }
 
 .footer-social-link {

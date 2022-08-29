@@ -144,18 +144,25 @@
   }
 
   .footer-grid-item:last-child {
-    grid-column: 1 / 3;
+    text-align: center;
+    grid-column: 1 / -1;
   }
 
-  .footer-logo {
-    grid-template-columns: 1fr;
-    row-gap: 2rem;
-    justify-items: center;
-    padding: 2rem;
+  .footer-input {
+    max-width: 20rem;
+  }
+
+  .footer-logo-container {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-logo-img {
+    margin: 2rem 0;
   }
 
   .footer-social-links {
     gap: 2rem;
-    margin: 0 auto;
+    justify-content: center;
   }
 }
