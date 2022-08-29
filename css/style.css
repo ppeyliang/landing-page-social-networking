@@ -540,6 +540,7 @@ body {
 .cta-img-box {
   display: flex;
   align-items: center;
+  gap: 2rem;
 }
 
 /*******************************/
@@ -604,11 +605,11 @@ body {
   list-style: none;
 }
 
-.footer-list li {
+.footer-list-item {
   margin-bottom: 1.4rem;
 }
 
-.footer-list li:first-child {
+.footer-list-item:first-child {
   font-weight: 600;
 }
 
@@ -635,6 +636,10 @@ body {
 
 .footer-input::placeholder {
   color: #aaa;
+}
+
+.footer-input:focus {
+  box-shadow: none;
 }
 
 .footer-subscribe:link,

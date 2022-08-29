@@ -117,6 +117,14 @@
     text-align: center;
   }
 
+  .cta-img-box {
+    justify-content: center;
+  }
+
+  .cta-img {
+    width: 30%;
+  }
+
   /* Blog */
   .news {
     flex-wrap: wrap;
