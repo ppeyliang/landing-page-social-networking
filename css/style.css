@@ -201,6 +201,12 @@ body {
   border-bottom: 1px solid rgba(33, 123, 244, 0.1);
 }
 
+.header-sticky {
+  position: fixed;
+  width: 100%;
+  background-color: #fff;
+}
+
 .header-inner {
   display: flex;
   align-items: center;
