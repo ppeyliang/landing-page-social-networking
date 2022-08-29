@@ -117,6 +117,14 @@
     text-align: center;
   }
 
+  .cta-img-box {
+    justify-content: center;
+  }
+
+  .cta-img {
+    width: 30%;
+  }
+
   /* Blog */
   .news {
     flex-wrap: wrap;
@@ -128,5 +136,33 @@
 
   .news-img-box {
     width: 80%;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .footer-grid-item:last-child {
+    text-align: center;
+    grid-column: 1 / -1;
+  }
+
+  .footer-input {
+    max-width: 20rem;
+  }
+
+  .footer-logo-container {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-logo-img {
+    margin: 2rem 0;
+  }
+
+  .footer-social-links {
+    gap: 2rem;
+    justify-content: center;
   }
 }
