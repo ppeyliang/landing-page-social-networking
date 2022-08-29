@@ -28,4 +28,5 @@ This project is referencing a free social networking landing page designed in Fi
 
 ## Acknowledgements
 
-[Figma design](https://www.figma.com/file/5vKREwzFQ1UQOHE8Rswcct/Free-Landing-Page-Design-(Community)?node-id=5%3A123)
+* [Figma design](https://www.figma.com/file/5vKREwzFQ1UQOHE8Rswcct/Free-Landing-Page-Design-(Community)?node-id=5%3A123)
+* [GitHub badge](https://github.com/alexandresanlim/Badges4-README.md-Profile/blob/master/README.md)
