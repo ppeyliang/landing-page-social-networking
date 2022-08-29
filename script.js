@@ -3,6 +3,8 @@
 const headerEl = document.querySelector('.header');
 const navEl = document.querySelector('.main-nav');
 const heroEl = document.querySelector('.hero');
+const menuEl = document.querySelector('.menu-link');
+const mobileNavEl = document.querySelector('.main-nav-mobile');
 
 // Implement sticky header
 const headerHeight = headerEl.getBoundingClientRect().height;
@@ -40,4 +42,9 @@ navEl.addEventListener('click', (e) => {
       behavior: 'smooth',
     });
   }
+});
+
+// Implement mobile navigation
+menuEl.addEventListener('click', () => {
+  mobileNavEl.classList.toggle('main-nav-open');
 });

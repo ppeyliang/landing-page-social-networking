@@ -5,6 +5,7 @@
   /* General */
   html {
     font-size: 50%;
+    overflow-x: hidden;
   }
 
   /* Header */
@@ -13,8 +14,11 @@
     gap: 1.2rem;
   }
 
-  .menu-link {
+  .menu-link:link,
+  .menu-link:visited {
     display: inline-block;
+    box-shadow: none;
+    position: relative;
   }
 
   .menu-icon {
@@ -24,6 +28,30 @@
 
   .logo {
     height: 2.4rem;
+  }
+
+  .main-nav-mobile {
+    list-style: none;
+    background-color: rgba(255, 255, 255, 0.97);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    position: absolute;
+    left: 10%;
+    top: 1rem;
+    padding: 1rem 3.2rem;
+    transform: translateX(-150%);
+    transition: all 0.3s;
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+
+  .main-nav-open {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: translateX(0);
   }
 
   .main-nav-list {
@@ -119,6 +147,7 @@
 
   .cta-img-box {
     justify-content: center;
+    margin-top: 2rem;
   }
 
   .cta-img {
