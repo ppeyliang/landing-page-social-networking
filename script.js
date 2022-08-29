@@ -1,8 +1,10 @@
 'use strict';
 
 const headerEl = document.querySelector('.header');
+const navEl = document.querySelector('.main-nav');
 const heroEl = document.querySelector('.hero');
 
+// Implement sticky header
 const headerHeight = headerEl.getBoundingClientRect().height;
 
 const sticky = (entries) => {
@@ -22,3 +24,20 @@ const heroObserver = new IntersectionObserver(sticky, {
 });
 
 heroObserver.observe(heroEl);
+
+// Implement smooth scrolling to section
+navEl.addEventListener('click', (e) => {
+  e.preventDefault();
+  if (e.target.classList.contains('main-nav-link')) {
+    const sectionId = e.target.getAttribute('href');
+    const sectionCoords = document
+      .querySelector(sectionId)
+      .getBoundingClientRect();
+
+    window.scrollTo({
+      top: sectionCoords.top + window.pageYOffset - headerHeight,
+      left: sectionCoords.left + window.pageXOffset,
+      behavior: 'smooth',
+    });
+  }
+});
