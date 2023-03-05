@@ -4,7 +4,7 @@
 
 ## About The Project
 
-This project is referencing a free social networking landing page designed in Figma and tranform the design to a real [static website hosted on Netlify](https://main--beamish-pudding-65f16f.netlify.app/).
+This project is referencing a free social networking landing page designed in Figma and transform the design to a real [static website hosted on Netlify](https://main--beamish-pudding-65f16f.netlify.app/).
 
 ## Built With
 
